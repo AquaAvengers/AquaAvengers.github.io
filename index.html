@@ -12,7 +12,7 @@
         <nav class="container mx-auto px-6 py-3">
             <div class="flex justify-between items-center">
                 <a href="#" class="text-2xl font-bold text-primary">
-                    <img src="https://via.placeholder.com/50" alt="Aqua Avengers Logo" class="inline-block h-8 w-8 mr-2">
+                    <img src="assets/img/Aqua Avengers logo.png" alt="Aqua Avengers Logo" class="inline-block h-8 w-8 mr-2">
                     Aqua Avengers
                 </a>
                 <div class="hidden md:flex space-x-6">
@@ -219,7 +219,9 @@
             const email = document.getElementById('email').value;
             const message = document.getElementById('message').value;
             
-            const mailtoLink = `mailto:aqua.avengers4@gmail.com?subject=Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+            const mailtoLink = `
+    
+            mailto:aqua.avengers4@gmail.com?subject=Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
             
             window.location.href = mailtoLink;
             
